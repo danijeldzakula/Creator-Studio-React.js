@@ -1,0 +1,12 @@
+@charset 'utf-8';
+@use "../utils/variables" as *;
+
+.elements {
+  position: relative;
+  border: $borderHeightBase solid $light;
+
+  @media print {
+    border: 0;
+    padding: 0 !important;
+  }
+}
